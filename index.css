@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Figtree:wght@600&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #2CD261;
+    text-align: center;
+}
+.outercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: white;
+    padding: 1rem;
+    flex-wrap: wrap;
+    width: 80rem;
+}
+
+.heading h1{
+    font-size: 5rem;
+    font-family: 'DynaPuff', sans-serif;
+}
+.img img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+.Recipe p{
+    font-family: 'Figtree', sans-serif;
+    font-size:2rem;
+}
