@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Figtree:wght@600&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.heading h1{
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+}
+.imgdes,.ingsteps{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'DynaPuff', sans-serif;
+}
+
+.imgdes img{
+    width: 90%;
+    height:auto;
+    border-radius: 2rem;
+}
+.imgdes ul{
+    list-style-type: none;
+}
+.img p{
+    text-align: center;
+}
+.des{
+    border: 6px solid black;
+    border-radius: 1rem;
+    padding: 7rem 1rem;
+    text-align: center;
+}
+.steps h3,.ing h3,.des h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+.ing ul{
+    list-style-position: inside;
+    padding: 0rem 1rem;
+}
+.img,.des{
+    width: 50%;
+    margin: 2rem;
+}
+.ing,.steps{
+    border: 6px solid black;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 2rem;
+    padding: 1rem;
+}
+@media screen and (max-width:730px){
+    .ingsteps{
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+    .imgdes{
+        flex-wrap: wrap;
+    }
+}
+a{
+    display:block;
+    text-align: center;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color:#00bf72;
+    font-family: 'DynaPuff', sans-serif;
+    font-size: 1.5rem;
+}
