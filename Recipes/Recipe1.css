@@ -16,7 +16,9 @@
 .imgdes,.ingsteps{
     display: flex;
     justify-content:space-around;
-    align-items: center;
+    /* justify-content is for aligning row elements */
+    align-items:flex-start;
+    /* align items is column wise */
     font-family: 'DynaPuff', sans-serif;
 }
 
@@ -34,8 +36,11 @@
 .des{
     border: 6px solid black;
     border-radius: 1rem;
-    padding: 7rem 1rem;
+    padding: 5rem 1rem;
     text-align: center;
+}
+.des p{
+    padding: 1rem 0rem;
 }
 .steps h3,.ing h3,.des h3{
     font-size: 3rem;
@@ -57,6 +62,13 @@
     margin: 2rem;
     padding: 1rem;
 }
+.ing li{
+    padding: 1rem 0rem;
+}
+.steps dt{
+    padding: .5rem;
+    font-size: 2rem;
+}
 @media screen and (max-width:730px){
     .ingsteps{
         flex-wrap: wrap;
@@ -66,9 +78,10 @@
         flex-wrap: wrap;
     }
 }
-a{
-    display:block;
-    text-align: center;
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button{
     padding: 1rem 2rem;
@@ -77,4 +90,7 @@ button{
     background-color:#00bf72;
     font-family: 'DynaPuff', sans-serif;
     font-size: 1.5rem;
+}
+.footerlist li{
+    display: inline;
 }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Figtree:wght@600&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(to right top, #954d61, #b9505d, #d8584f, #ef6737, #fc7e00);
+}
+.heading h1{
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+}
+.imgdes,.ingsteps{
+    display: flex;
+    justify-content:space-around;
+    /* justify-content is for aligning row elements */
+    align-items:flex-start;
+    /* align items is column wise */
+    font-family: 'DynaPuff', sans-serif;
+}
+
+.imgdes img{
+    width: 90%;
+    height:auto;
+    border-radius: 2rem;
+}
+.imgdes ul{
+    list-style-type: none;
+}
+.img p{
+    text-align: center;
+}
+.des{
+    border: 6px solid black;
+    border-radius: 1rem;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+.des p{
+    padding: 1rem 0rem;
+}
+.steps h3,.ing h3,.des h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+.ing ul{
+    list-style-position: inside;
+    padding: 0rem 1rem;
+}
+.img,.des{
+    width: 50%;
+    margin: 2rem;
+}
+.ing,.steps{
+    border: 6px solid black;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 2rem;
+    padding: 1rem;
+}
+.ing li{
+    padding: 1rem 0rem;
+}
+.steps dt{
+    padding: .5rem;
+    font-size: 2rem;
+}
+@media screen and (max-width:730px){
+    .ingsteps{
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+    .imgdes{
+        flex-wrap: wrap;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color:#00bf72;
+    font-family: 'DynaPuff', sans-serif;
+    font-size: 1.5rem;
+}
+.footerlist li{
+    display: inline;
+}
